@@ -6,86 +6,226 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Ruth Wa Boaz - Chaplaincy, wedding and funeral officiating, and spiritual care in Harare, Zimbabwe.">
 <title>Ruth Wa Boaz | Chaplaincy & Spiritual Care</title>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <style>
 :root {
-  --green:#183d30; --dark:#102b22; --gold:#c69a3b;
-  --cream:#f7f3eb; --white:#fffdf8; --text:#26352d;
+  --green:#183d30;
+  --dark:#102b22;
+  --gold:#c69a3b;
+  --cream:#f7f3eb;
+  --white:#fffdf8;
+  --text:#26352d;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;font-family:Arial,sans-serif;color:var(--text);background:var(--white);line-height:1.65}
-header{background:var(--white);padding:20px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:1px solid #e8e0d2}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  color:var(--text);
+  background:var(--white);
+  line-height:1.65;
+}
+header{
+  background:var(--white);
+  padding:20px 6%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  border-bottom:1px solid #e8e0d2;
+}
 .brand{color:var(--green);font-family:Georgia,serif}
 .brand h2{margin:0;font-size:25px;letter-spacing:2px}
 .brand small{font:11px Arial,sans-serif;letter-spacing:1px}
 nav{display:flex;gap:22px;flex-wrap:wrap}
-nav a{color:var(--green);text-decoration:none;font-weight:bold;font-size:14px}
+nav a{
+  color:var(--green);
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
 nav a:hover{color:var(--gold)}
-.hero{background:linear-gradient(120deg,#102b22,#315b43);color:white;padding:95px 8%;text-align:left}
+.hero{
+  background:linear-gradient(120deg,#102b22,#315b43);
+  color:white;
+  padding:95px 8%;
+}
 .hero-content{max-width:850px}
-.eyebrow{color:#e6c77b;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:bold}
+.eyebrow{
+  color:#c69a3b;
+  text-transform:uppercase;
+  letter-spacing:3px;
+  font-size:12px;
+  font-weight:bold;
+}
 h1,h2,h3{font-family:Georgia,serif}
-.hero h1{font-size:clamp(38px,6vw,65px);line-height:1.12;margin:22px 0;max-width:800px}
+.hero h1{
+  font-size:clamp(38px,6vw,65px);
+  line-height:1.12;
+  margin:22px 0;
+  max-width:800px;
+}
 .hero p{font-size:18px;max-width:700px;color:#f0eee8}
-.motto{font-family:Georgia,serif;font-style:italic;color:#e8ce91!important}
-.button{display:inline-block;padding:13px 23px;margin:12px 10px 0 0;border-radius:5px;text-decoration:none;font-weight:bold}
+.motto{
+  font-family:Georgia,serif;
+  font-style:italic;
+  color:#e8ce91!important;
+}
+.button{
+  display:inline-block;
+  padding:13px 23px;
+  margin:12px 10px 0 0;
+  border-radius:5px;
+  text-decoration:none;
+  font-weight:bold;
+  border:0;
+  cursor:pointer;
+}
 .primary{background:#e6c16b;color:#183d30}
 .secondary{border:1px solid white;color:white}
 section{padding:75px 7%}
 .section-title{text-align:center;margin-bottom:40px}
 .section-title h2{font-size:36px;color:var(--green)}
 .section-title p{color:#66736b}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
-.card{background:var(--cream);padding:27px;border-radius:9px;border-bottom:3px solid var(--gold)}
+.services{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;
+}
+.card{
+  background:var(--cream);
+  padding:27px;
+  border-radius:9px;
+  border-bottom:3px solid var(--gold);
+}
 .card .symbol{font-size:32px;color:var(--gold)}
 .card h3{font-size:22px;color:var(--green)}
 .card p{font-size:15px}
-.kingdom{background:var(--green);color:white;text-align:center;padding:75px 10%}
+.kingdom{
+  background:var(--green);
+  color:white;
+  text-align:center;
+  padding:75px 10%;
+}
 .kingdom h2{font-size:35px}
-.kingdom blockquote{font:italic 23px Georgia,serif;color:#e8ce91;max-width:750px;margin:30px auto}
+.kingdom blockquote{
+  font:italic 23px Georgia,serif;
+  color:#e8ce91;
+  max-width:750px;
+  margin:30px auto;
+}
 .after{background:var(--cream);text-align:center}
 .after h2{color:var(--green);font-size:34px}
 .after p{max-width:760px;margin:15px auto}
-.notice{max-width:760px;margin:25px auto;padding:16px;background:#eee5d5;border-left:4px solid var(--gold);text-align:left;font-size:14px}
+.notice{
+  max-width:760px;
+  margin:25px auto;
+  padding:16px;
+  background:#eee5d5;
+  border-left:4px solid var(--gold);
+  text-align:left;
+  font-size:14px;
+}
 .about{max-width:850px;margin:auto}
 .about h2{color:var(--green);font-size:35px}
-.training{background:var(--cream);padding:25px;border-radius:8px;margin-top:30px}
+.training{
+  background:var(--cream);
+  padding:25px;
+  border-radius:8px;
+  margin-top:30px;
+}
 .training h3{color:var(--green)}
 .training li{margin-bottom:9px}
-.contact{background:var(--green);color:white;text-align:center}
+.contact{
+  background:var(--green);
+  color:white;
+  text-align:center;
+}
 .contact h2{font-size:36px;color:#e8ce91}
-.contact a{color:#e8ce91}
-.contact p{margin:10px}
-footer{background:var(--dark);color:#ddd;padding:25px;text-align:center;font-size:13px}
+.contact-intro{max-width:650px;margin:0 auto 30px}
+.contact-form{
+  max-width:650px;
+  margin:30px auto 0;
+  padding:28px;
+  background:var(--white);
+  color:var(--text);
+  border-radius:9px;
+  text-align:left;
+}
+.contact-form label{
+  display:block;
+  margin:14px 0 5px;
+  font-weight:bold;
+  color:var(--green);
+}
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #d8d2c6;
+  border-radius:5px;
+  font:16px Arial,sans-serif;
+  background:white;
+}
+.contact-form textarea{min-height:130px;resize:vertical}
+.contact-form button{margin-top:20px}
+.form-note{
+  color:#68736c;
+  font-size:12px;
+  margin-top:12px;
+}
+footer{
+  background:var(--dark);
+  color:#ddd;
+  padding:25px;
+  text-align:center;
+  font-size:13px;
+}
 @media(max-width:650px){
-  header{gap:15px} nav{gap:13px}
-  .brand small{display:block;max-width:100%;line-height:1.5}
-  .hero{padding:65px 7%} section{padding:55px 7%}
+  header{gap:15px}
+  nav{gap:13px}
+  .brand small{display:block;line-height:1.6}
+  .hero{padding:65px 7%}
+  section{padding:55px 7%}
+  .contact-form{padding:20px}
 }
 </style>
 </head>
 <body>
+
 <header>
   <div class="brand">
     <h2>RUTH WA BOAZ</h2>
     <small>CHAPLAINCY | WEDDING &amp; FUNERAL OFFICIATING | SPIRITUAL CARE</small>
   </div>
   <nav>
-    <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
-    <a href="#training">Training</a><a href="#contact">Contact</a>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#training">Background</a>
+    <a href="#contact">Contact</a>
   </nav>
 </header>
+
 <main>
 <div class="hero" id="home">
   <div class="hero-content">
     <div class="eyebrow">Chaplaincy &amp; Spiritual Care · Harare, Zimbabwe</div>
     <h1>Walking With You Through Life's Significant Moments.</h1>
-    <p>Christ-centred chaplaincy, wedding and funeral officiating, and compassionate spiritual care in Harare and surrounding areas.</p>
-    <p class="motto">The Kingdom is our foundation. Service is our expression. Jesus is the One we represent.</p>
-    <a class="button primary" href="#contact">Enquire About a Service</a>
+    <p>
+      Christ-centred chaplaincy, wedding and funeral officiating,
+      and compassionate spiritual care in Harare and surrounding areas.
+    </p>
+    <p class="motto">
+      The Kingdom is our foundation. Service is our expression.
+      Jesus is the One we represent.
+    </p>
+    <a class="button primary" href="#contact">Get in Touch</a>
     <a class="button secondary" href="#about">I Am Ruth</a>
   </div>
 </div>
+
 <section id="services">
   <div class="section-title">
     <div class="eyebrow">How I can serve</div>
@@ -93,40 +233,106 @@ footer{background:var(--dark);color:#ddd;padding:25px;text-align:center;font-siz
     <p>Thoughtful preparation, dignified ceremonies and compassionate presence.</p>
   </div>
   <div class="services">
-    <article class="card"><div class="symbol">♡</div><h3>Wedding Officiating</h3>
-      <p>Meaningful and carefully prepared wedding ceremonies that honour commitment, love, responsibility and the wishes of each couple.</p></article>
-    <article class="card"><div class="symbol">✝</div><h3>Funeral Officiating</h3>
-      <p>Dignified funeral and memorial services that honour a life, respect family wishes and provide room for remembrance and reflection.</p></article>
-    <article class="card"><div class="symbol">✧</div><h3>After the Funeral</h3>
-      <p>A voluntary three-month spiritual bereavement care programme offering continued listening, presence and encouragement.</p></article>
-    <article class="card"><div class="symbol">♡</div><h3>Chaplaincy &amp; Spiritual Care</h3>
-      <p>Spiritual presence, listening, prayer and Scripture encouragement where welcomed, with sensitivity to individual circumstances.</p></article>
+    <article class="card">
+      <div class="symbol">♡</div>
+      <h3>Wedding Officiating</h3>
+      <p>
+        Meaningful and carefully prepared wedding ceremonies
+        that honour commitment, love, responsibility and the
+        wishes of each couple.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">✝</div>
+      <h3>Funeral Officiating</h3>
+      <p>
+        Dignified funeral and memorial services that honour a life,
+        respect family wishes and provide room for remembrance
+        and reflection.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">✧</div>
+      <h3>After the Funeral</h3>
+      <p>
+        A voluntary three-month spiritual bereavement care
+        programme offering continued listening, presence
+        and encouragement.
+      </p>
+    </article>
+    <article class="card">
+      <div class="symbol">♡</div>
+      <h3>Chaplaincy &amp; Spiritual Care</h3>
+      <p>
+        Spiritual presence, listening, prayer and Scripture
+        encouragement where welcomed, with sensitivity
+        to individual circumstances.
+      </p>
+    </article>
   </div>
 </section>
+
 <div class="kingdom">
   <div class="eyebrow">The foundation of my work</div>
   <h2>The King. The Kingdom. Kingdom Representation.</h2>
-  <p>My Christian faith shapes how I prepare, listen, serve and care for people. I seek to reflect the character and values of Jesus in practical service.</p>
-  <blockquote>The Kingdom is our foundation. Service is our expression. Jesus is the One we represent.</blockquote>
+  <p>
+    My Christian faith shapes how I prepare, listen, serve
+    and care for people. I seek to reflect the character
+    and values of Jesus in practical service.
+  </p>
+  <blockquote>
+    The Kingdom is our foundation. Service is our expression.
+    Jesus is the One we represent.
+  </blockquote>
 </div>
+
 <section class="after">
   <div class="eyebrow">Ongoing bereavement support</div>
   <h2>After the Funeral</h2>
-  <p>Grief does not follow a timetable, and care should not necessarily end on the day of the funeral.</p>
-  <p>This three-month programme offers individual follow-up conversations, compassionate listening, spiritual encouragement, prayer and Scripture where welcomed, and agreed follow-up contact.</p>
-  <div class="notice">This is spiritual bereavement care, not clinical grief counselling, psychotherapy or medical treatment. Referral guidance can be discussed when additional professional support is needed. Participation is voluntary and based on individual consent.</div>
+  <p>
+    Grief does not follow a timetable, and care should not
+    necessarily end on the day of the funeral.
+  </p>
+  <p>
+    This three-month programme offers individual follow-up
+    conversations, compassionate listening, spiritual encouragement,
+    prayer and Scripture where welcomed, and agreed follow-up contact.
+  </p>
+  <div class="notice">
+    This is spiritual bereavement care, not clinical grief counselling,
+    psychotherapy or medical treatment. Referral guidance can be
+    discussed when additional professional support is needed.
+    Participation is voluntary and based on individual consent.
+  </div>
   <a class="button primary" href="#contact">Ask About the Programme</a>
 </section>
+
 <section id="about">
   <div class="about">
     <div class="eyebrow">A personal service rooted in faith</div>
     <h2>I Am Ruth</h2>
-    <p>I am Ruth Wa Boaz, and my work is rooted in my Christian faith and my desire to serve people with dignity, compassion and thoughtful care.</p>
-    <p>I offer wedding and funeral officiating, chaplaincy and spiritual care. My particular focus is walking alongside people through significant moments in life — moments of joy, commitment and new beginnings, as well as moments of loss, remembrance and grief.</p>
-    <p>Whether I am preparing a ceremony or offering spiritual care, I begin by listening, understanding your wishes and treating every person with respect.</p>
-    <p>My desire is to reflect the character and values of Jesus through practical, personal service.</p>
+    <p>
+      I am Ruth Wa Boaz, and my work is rooted in my Christian faith
+      and my desire to serve people with dignity, compassion and thoughtful care.
+    </p>
+    <p>
+      I offer wedding and funeral officiating, chaplaincy and spiritual care.
+      My particular focus is walking alongside people through significant
+      moments in life — moments of joy, commitment and new beginnings,
+      as well as moments of loss, remembrance and grief.
+    </p>
+    <p>
+      Whether I am preparing a ceremony or offering spiritual care,
+      I begin by listening, understanding your wishes and treating
+      every person with respect.
+    </p>
+    <p>
+      My desire is to reflect the character and values of Jesus
+      through practical, personal service.
+    </p>
+
     <div class="training" id="training">
-      <h3>Training &amp; Professional Preparation</h3>
+      <h3>Professional Background</h3>
       <ul>
         <li>Chaplaincy — Women's University in Africa</li>
         <li>Chaplaincy: Disaster and Community Response — Christian Leaders Institute</li>
@@ -138,24 +344,77 @@ footer{background:var(--dark);color:#ddd;padding:25px;text-align:center;font-siz
     </div>
   </div>
 </section>
-<div class="contact" id="contact">
-  <section>
-    <div class="eyebrow">Start a conversation</div>
-    <h2>How Can I Serve You?</h2>
-    <p>For wedding and funeral enquiries, spiritual care or partnerships.</p>
+
+<section class="contact" id="contact">
+  <div class="eyebrow">Start a conversation</div>
+  <h2>Get in Touch</h2>
+  <div class="contact-intro">
+    <p>
+      Have a question or would like to enquire about my services?
+      Please complete the contact form below. I look forward to hearing from you.
+    </p>
     <p><strong>Based in Harare, Zimbabwe</strong></p>
     <p>Serving Harare and surrounding areas within approximately 60 km.</p>
     <p>Digital consultations may be arranged beyond this area.</p>
-    <p>Email: <a href="mailto:info@ruthwaboaz.site">info@ruthwaboaz.site</a></p>
-    <p>WhatsApp contact details will be added soon.</p>
-  </section>
-</div>
+  </div>
+
+  <form class="contact-form" onsubmit="sendEnquiry(event)">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Your Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="service">What would you like to enquire about?</label>
+    <select id="service" name="service" required>
+      <option value="">Please select</option>
+      <option>Wedding Officiating</option>
+      <option>Funeral Officiating</option>
+      <option>After the Funeral</option>
+      <option>Chaplaincy &amp; Spiritual Care</option>
+      <option>Other Enquiry</option>
+    </select>
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button class="button primary" type="submit">Send Message</button>
+    <p class="form-note">
+      Selecting Send Message will open your email application
+      with your enquiry ready to send.
+    </p>
+  </form>
+</section>
 </main>
+
 <footer>
   <strong>RUTH WA BOAZ</strong>
   <p>Chaplaincy | Wedding &amp; Funeral Officiating | Spiritual Care</p>
   <p>Harare, Zimbabwe</p>
   <p>© 2026 Ruth Wa Boaz. All rights reserved.</p>
 </footer>
+
+<script>
+function sendEnquiry(event) {
+  event.preventDefault();
+
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value.trim();
+
+  const subject = encodeURIComponent("Website enquiry: " + service);
+  const body = encodeURIComponent(
+    "Name: " + name + "\n" +
+    "Email: " + email + "\n" +
+    "Enquiry about: " + service + "\n\n" +
+    "Message:\n" + message
+  );
+
+  window.location.href =
+    "mailto:info@ruthwaboaz.site?subject=" + subject + "&body=" + body;
+}
+</script>
+
 </body>
 </html>
